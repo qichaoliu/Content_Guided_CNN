@@ -10,7 +10,7 @@ import time
 from sklearn import preprocessing
 
 
-# ratio: choose training\validation\testing sample according "ratio" or "same number per class"
+# ratio: choose training\validation\testing sample according to "ratio" or "same number per class"
 samples_type=['ratio','same_num'][0] #
 
 for (curr_train_ratio,FLAG) in [(0.01,4)]:#(0.05,5),(0.01,4),(0.05,5),(0.01,2)
@@ -23,8 +23,8 @@ for (curr_train_ratio,FLAG) in [(0.01,4)]:#(0.05,5),(0.01,4),(0.05,5),(0.01,2)
             gt_mat = sio.loadmat('..\\HyperImage_data\\indian\\Indian_pines_gt.mat')
             gt = gt_mat['indian_pines_gt']
 
-            # train_ratio = 0.1  # 训练集比例。注意，训练集为按照‘每类’随机选取
-            val_ratio = 0.01  # 测试集比例.注意，验证集选取为从测试集整体随机选取，非按照每类
+            # train_ratio = 0.1  # training ratio
+            val_ratio = 0.01  # validation ratio
             class_count = 16
             learning_rate = 5e-4  # leaning rate of parameters
             learning_rate_sigma = 0.005 # leaning rate of sigma
