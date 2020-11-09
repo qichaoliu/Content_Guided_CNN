@@ -1,7 +1,7 @@
 # content_guided_CNN CGCNN
 Content-Guided Convolutional Neural Network for Hyperspectral Image Classification
 
-Early Access is available at: https://ieeexplore.ieee.org/document/9034507/keywords#keywords
+Early Access is available at: https://ieeexplore.ieee.org/document/9034507
 
 DOI: 10.1109/TGRS.2020.2974134
 
@@ -21,7 +21,7 @@ Q. Liu, L. Xiao, J. Yang and J. C. Chan, "Content-Guided Convolutional Neural Ne
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Content-Guided Convolutional Neural Network for Hyperspectral Image Classification}, 
   year={2020},
-  month={Mar.},
+  month={Sept.},
   volume={58},
   number={9},
   pages={6124-6137},}
