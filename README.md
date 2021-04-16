@@ -16,6 +16,8 @@ The Synthetic Dataset (SD) is available at https://github.com/qichaoliu/CNN-MRF-
 
 Q. Liu, L. Xiao, J. Yang and J. C. Chan, "Content-Guided Convolutional Neural Network for Hyperspectral Image Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 58, no. 9, pp. 6124-6137, Sept. 2020, doi: 10.1109/TGRS.2020.2974134.
 
+or
+
 @ARTICLE{9034507,
   author={Q. {Liu} and L. {Xiao} and J. {Yang} and J. C. {Chan}},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
@@ -25,3 +27,7 @@ Q. Liu, L. Xiao, J. Yang and J. C. Chan, "Content-Guided Convolutional Neural Ne
   volume={58},
   number={9},
   pages={6124-6137},}
+
+
+
+Note that the code is stinky and long.
